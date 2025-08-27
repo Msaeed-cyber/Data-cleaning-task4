@@ -101,3 +101,4 @@ final_data = pd.concat([X, y], axis=1)
 final_data.to_csv("cleaned_titanic.csv", index=False)
 print("\n✅ Cleaned dataset saved as 'cleaned_titanic.csv'")
 
+
